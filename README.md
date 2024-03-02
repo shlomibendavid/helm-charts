@@ -11,13 +11,13 @@ NOTE: Chart documentations is available in every project directory.
 [Helm](https://helm.sh) must be installed to use the charts.\
 Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 
-Add `shlomibendavid` repo
+Add the helm repo
 
 ```console
 helm repo add shlomibendavid https://shlomibendavid.github.io/helm-charts
 ```
 
-To see all the charts in `shlomibendavid` repo
+To see all the charts in the repo
 
 ```console
 helm search repo shlomibendavid
