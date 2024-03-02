@@ -10,7 +10,7 @@
 # NOT apply to ownership claim operations, which are processed immediately.
 #
 # The ID of the Artifact Hub repository where the packages will be published to (optional, but it enables verified publisher)
-repositoryID: 5a858a14-ea41-4f15-b287-ebbb436e22ae
+repositoryID: 540e7f4b-9d90-4abf-a98b-a0b1e128e000
 
 # Optional, used to claim repository ownership
 owners: 

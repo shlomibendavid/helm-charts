@@ -1,48 +1,24 @@
-# K8S-SSH
+# HELM-CHARTS
 
-K8S-SSH used to allow ssh connection to a Kubernetes cluster nodes by injecting the user's ssh public keys. 
+This repository contains [Helm](https://helm.sh) charts for various projects
 
-This chart bootstraps a [k8s-ssh](http://github.com/shlomibendavid/k8s-ssh) daemonset on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
+* [k8s-ssh](charts/k8s-ssh/)
 
-## Prerequisites
+NOTE: Chart documentations is available in every project directory.
 
-- Install helm
-- Create an override-values.yaml file and add all your user's and their ssh public keys
+## Usage
 
-```yaml
-users:
-  user1: <user1_public_key>
-  user2: <user2_public_key>
-```
+[Helm](https://helm.sh) must be installed to use the charts.\
+Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 
-NOTE: you should replace the user1 and user2 and their public keys with the relevant once.
-
-- Add the helm repo
+Add `shlomibendavid` repo
 
 ```console
-helm repo add k8s-ssh https://shlomibendavid.github.io/k8s-ssh
+helm repo add shlomibendavid https://shlomibendavid.github.io/helm-charts
 ```
 
-## Configuring
-
-See [Customizing the Chart Before Installing](https://helm.sh/docs/intro/using_helm/#customizing-the-chart-before-installing). To see all configurable options with detailed comments, visit the chart's [values.yaml](./values.yaml), or run these configuration commands:
+To see all the charts in `shlomibendavid` repo
 
 ```console
-# Helm 3
-$ helm show values .
-```
-
-## Template Generation
-
-```console
-# Helm 3
-$ helm template k8s-ssh --values override-values.yaml .
-```
-
-## Installation
-
-To install the helm chart
-
-```console
-helm install k8s-ssh k8s-ssh/k8s-ssh --version 1.0.2 --values override-values.yaml
+helm search repo shlomibendavid
 ```
