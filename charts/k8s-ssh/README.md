@@ -10,7 +10,7 @@ This chart bootstraps a [k8s-ssh](https://artifacthub.io/packages/helm/k8s-ssh/k
 - Add the helm repo
 
 ```console
-helm repo add shlomibendavid https://shlomibendavid.github.io/k8s-ssh
+helm repo add shlomibendavid https://shlomibendavid.github.io/helm-charts
 ```
 
 ## Configuring
@@ -26,14 +26,14 @@ NOTE: you should replace the `<user1>` and `<user1_public_key>` with your user a
 
 ```console
 # Helm 3
-$ helm show values .
+helm show values .
 ```
 
 ## Template Generation
 
 ```console
 # Helm 3
-$ helm template k8s-ssh --values override-values.yaml .
+helm template k8s-ssh --values override-values.yaml .
 ```
 
 ## Installation

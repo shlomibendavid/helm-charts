@@ -3,7 +3,20 @@ entries:
   k8s-ssh:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2024-03-01T23:40:21.313224-05:00"
+    created: "2024-03-02T02:44:27.575148-05:00"
+    description: A Helm chart for k8s-ssh component
+    digest: 74782579bbe4ef48c50f25bbc3484b8b169058c18f90d125a6916e798578e717
+    maintainers:
+    - email: shlomi.ben.david@gmail.com
+      name: Shlomi Ben-David
+    name: k8s-ssh
+    type: application
+    urls:
+    - k8s-ssh-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2024-03-02T02:44:27.574646-05:00"
     description: A Helm chart for k8s-ssh component
     digest: 108255c36d90759f63d1208c8ed151e79cd762ad60d1d250927604842db07bbf
     maintainers:
@@ -14,4 +27,4 @@ entries:
     urls:
     - k8s-ssh-1.0.3.tgz
     version: 1.0.3
-generated: "2024-03-01T23:40:21.311389-05:00"
+generated: "2024-03-02T02:44:27.572646-05:00"
