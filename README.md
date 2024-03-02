@@ -2,9 +2,7 @@
 
 This repository contains [Helm](https://helm.sh) charts for various projects
 
-* [k8s-ssh](charts/k8s-ssh/)
-
-NOTE: Chart documentations is available in every project directory.
+* [k8s-ssh](https://artifacthub.io/packages/helm/shlomibendavid/k8s-ssh)
 
 ## Usage
 
