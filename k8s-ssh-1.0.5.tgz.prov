@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: 0.0.2
+description: A Helm chart for k8s-ssh component
+maintainers:
+- - email: shlomi.ben.david@gmail.com
+  name: Shlomi Ben-David
+name: k8s-ssh
+type: application
+version: 1.0.5
+
+...
+files:
+  k8s-ssh-1.0.5.tgz: sha256:324a8a38357865c7e01860b18cc3c1379ac4321348da6812a39fe29c06a54772
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJl5Tx2CRBUJkEFmM+uXAAA83EMAEEIoKxCRey046FBSV44N3S+
+cVICRv9CZ2a8f9YjL9KuMfB/OKnY0okbeHewLi8yGaQbQSHsfxsTf3lIlPof4swV
+DjG7t2+x6ZSawmYnFr4nyO0AU1GEy4gT+g2DpgrIb539/uCEPE4DLA3rI9KuFFb8
+ShcQ2cH2h/93bARpNpkxCKXL7r+9NQ+9derC8otENFtQYN9zzaUpvgV0Zwyja2nc
+qnAgJyla1JbmqbwvoxxfEuWYVwu8KBwGRIeTey3szuu0poAd4bBxMxrUqtUpHh15
+gmXqL7Iv4DlIljz6G6fArialG/inY7mkJY1tRXvED87K2nxs9G2AmA+URGLLmCxk
+MLGjUTFvUyEa8gK+N3dA2ItN22EvxTGDoWeN5hORNqW/XolUYEjEzxodIViOq2z5
+BIcmfHtpV4g6JKS+OQYWe8tKQxLTqaHwCVm+8GKyv+q46LYZ0BoAU0FiVYcbp1Uq
+j413OEpGnyAXjkDI6Pvcb9HTCprLs3NIllSdoHWsVw==
+=lnKT
+-----END PGP SIGNATURE-----
