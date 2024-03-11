@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v1
+appVersion: 0.0.1
+description: A Helm chart for k8s-applier component
+maintainers:
+- - email: shlomi.ben.david@gmail.com
+  name: Shlomi Ben-David
+name: k8s-applier
+type: application
+version: 1.0.0
+
+...
+files:
+  k8s-applier-1.0.0.tgz: sha256:6987a12f6e9b0b2bac9fa859caa419deb9fd55a1c127d2a50146719e8771679f
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJl7lBICRBUJkEFmM+uXAAAdBcMAK18H/cVRdRoKsLGBCqze+bj
+q3XE4RwN7yuPgDgOYjwVhY/HuBHVGynGFNpFwCnPamLSyzfoFArd0XcwbjFFgVCF
+g3/mV7o7U2IqPE2bul5GlsMOguLE4c0LqpSaFNYlRxh3B6mJt0g9i3x4ij1Na3zN
+htRGywhmBQkeOvosFh3dH6BW2v0RlPZyYRvlsF4W7xat1BW39bd5oS8aEZcwMDro
+8ZNA/svB9sOUex9yWZcrtjncLiAql4FeT7YmlcYXiq7nEzI+Lzk2DZ0c51rRB3vH
+ONz+YyEJ1YBpgdSl6uynpST/9iJTEazBcJFm3IfueVQVBuOgSrVXtyvEUR8lMqF7
+y3r/YgKTzRxqCuJ4oQGv+PvLVzlqLLz34qh/wz90ECHjAe07eK1PoTBZ7ZLgH7NS
+ye9+Gey9Yv7aKoXjrsbotWHcKOoWeM3yZf0PUvJ1p42f3y67gLCIf2ADV7Gn9iM2
+JBsUhHVrlh0vbmMwpkaUMkuAqNbcufdpKPeVq+6aIg==
+=vjrB
+-----END PGP SIGNATURE-----
