@@ -3,7 +3,7 @@ entries:
   k8s-applier:
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2024-03-11T01:35:20.139246-04:00"
+    created: "2025-05-29T12:13:28.225322-04:00"
     description: A Helm chart for k8s-applier component
     digest: e8817594adc7a6b26aad640bbaef4f9516d20e94a6da902da594dab696651cfd
     maintainers:
@@ -16,7 +16,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2024-03-11T01:35:20.138586-04:00"
+    created: "2025-05-29T12:13:28.223956-04:00"
     description: A Helm chart for k8s-applier component
     digest: 6987a12f6e9b0b2bac9fa859caa419deb9fd55a1c127d2a50146719e8771679f
     maintainers:
@@ -27,10 +27,24 @@ entries:
     urls:
     - k8s-applier-1.0.0.tgz
     version: 1.0.0
+  k8s-route:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2025-05-29T12:13:28.22631-04:00"
+    description: A Helm chart for k8s-route component
+    digest: b08d3a13d0b22c669df0edc5047da0c19240cde42762c5134b0cf89b2ef38ac0
+    maintainers:
+    - email: shlomi.ben.david@gmail.com
+      name: Shlomi Ben-David
+    name: k8s-route
+    type: application
+    urls:
+    - k8s-route-1.0.0.tgz
+    version: 1.0.0
   k8s-ssh:
   - apiVersion: v1
     appVersion: 0.0.3
-    created: "2024-03-11T01:35:20.141274-04:00"
+    created: "2025-05-29T12:13:28.228841-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 0b6aabb420978b2af3bc6425ea8db1e50e967959db6c2b3d3cbe00d97d5b33a8
     maintainers:
@@ -43,7 +57,7 @@ entries:
     version: 1.0.6
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2024-03-11T01:35:20.140534-04:00"
+    created: "2025-05-29T12:13:28.227842-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 324a8a38357865c7e01860b18cc3c1379ac4321348da6812a39fe29c06a54772
     maintainers:
@@ -56,7 +70,7 @@ entries:
     version: 1.0.5
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2024-03-11T01:35:20.139885-04:00"
+    created: "2025-05-29T12:13:28.227087-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 74782579bbe4ef48c50f25bbc3484b8b169058c18f90d125a6916e798578e717
     maintainers:
@@ -67,4 +81,4 @@ entries:
     urls:
     - k8s-ssh-1.0.4.tgz
     version: 1.0.4
-generated: "2024-03-11T01:35:20.135924-04:00"
+generated: "2025-05-29T12:13:28.222243-04:00"
