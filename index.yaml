@@ -3,7 +3,7 @@ entries:
   k8s-applier:
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2025-06-01T22:18:41.160588-04:00"
+    created: "2025-06-01T22:47:55.249187-04:00"
     description: A Helm chart for k8s-applier component
     digest: e8817594adc7a6b26aad640bbaef4f9516d20e94a6da902da594dab696651cfd
     maintainers:
@@ -16,7 +16,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2025-06-01T22:18:41.159841-04:00"
+    created: "2025-06-01T22:47:55.248553-04:00"
     description: A Helm chart for k8s-applier component
     digest: 6987a12f6e9b0b2bac9fa859caa419deb9fd55a1c127d2a50146719e8771679f
     maintainers:
@@ -29,8 +29,21 @@ entries:
     version: 1.0.0
   k8s-route:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-06-01T22:47:55.25158-04:00"
+    description: A Helm chart for k8s-route component
+    digest: 25c5c1bdfdbb8cf8e7d2e941c82cff9f31b1381a3cd70f530438c3a8fa478aca
+    maintainers:
+    - email: shlomi.ben.david@gmail.com
+      name: Shlomi Ben-David
+    name: k8s-route
+    type: application
+    urls:
+    - k8s-route-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-06-01T22:18:41.16228-04:00"
+    created: "2025-06-01T22:47:55.251019-04:00"
     description: A Helm chart for k8s-route component
     digest: 170b40f90458f2d30584c40cfbd501aa43844273a3139e8a66ace1565dce17a9
     maintainers:
@@ -43,7 +56,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2025-06-01T22:18:41.161447-04:00"
+    created: "2025-06-01T22:47:55.250028-04:00"
     description: A Helm chart for k8s-route component
     digest: b08d3a13d0b22c669df0edc5047da0c19240cde42762c5134b0cf89b2ef38ac0
     maintainers:
@@ -57,7 +70,7 @@ entries:
   k8s-ssh:
   - apiVersion: v1
     appVersion: 0.0.3
-    created: "2025-06-01T22:18:41.167872-04:00"
+    created: "2025-06-01T22:47:55.253467-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 0b6aabb420978b2af3bc6425ea8db1e50e967959db6c2b3d3cbe00d97d5b33a8
     maintainers:
@@ -70,7 +83,7 @@ entries:
     version: 1.0.6
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2025-06-01T22:18:41.165628-04:00"
+    created: "2025-06-01T22:47:55.252844-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 324a8a38357865c7e01860b18cc3c1379ac4321348da6812a39fe29c06a54772
     maintainers:
@@ -83,7 +96,7 @@ entries:
     version: 1.0.5
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2025-06-01T22:18:41.163888-04:00"
+    created: "2025-06-01T22:47:55.252253-04:00"
     description: A Helm chart for k8s-ssh component
     digest: 74782579bbe4ef48c50f25bbc3484b8b169058c18f90d125a6916e798578e717
     maintainers:
@@ -94,4 +107,4 @@ entries:
     urls:
     - k8s-ssh-1.0.4.tgz
     version: 1.0.4
-generated: "2025-06-01T22:18:41.158325-04:00"
+generated: "2025-06-01T22:47:55.247122-04:00"
