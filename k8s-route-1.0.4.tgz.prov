@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.0.2
+description: A Helm chart for k8s-route component
+maintainers:
+- - email: shlomi.ben.david@gmail.com
+  name: Shlomi Ben-David
+name: k8s-route
+type: application
+version: 1.0.4
+
+...
+files:
+  k8s-route-1.0.4.tgz: sha256:b78969f408b7fa45e2110bd61be739ecdbbe5d62fa85942b6ebdb9af4db008a0
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJoPc3qCRBUJkEFmM+uXAAAALYMABl/d/9La0AZCGp6cSYJf/dY
+lz4WY/0kzj1SFljPwdvNxYJ8HJ4fGyAvQy6EeyYMuesa9YkzIvmqlY4mcDgkVF+h
+UhsYtPWr8zs2DgimL0ZVGrMq3C1xqvriEiWscSJVJG2f1uh5aisMt+nwc1RNDr19
+QIItdP0K3NR6BKSXMiOL6oVzXkSGjylWz6yhIvAztTlulZUVIuv8A7qtAxl3KJnL
+IyOFLrHtNTwKqbtClA9OcD6GnQKla8gjm58NEvMcQQz9ueh3m0aLCtYtm8sy35uy
+n1ljrEK3Klam6P+xHsdDfPCCdpuC3oWeva+AM7PkRIYS55Q0LR0dLRXCdK2c8+3v
+FRpnWFmS/1XTvTtPU8yACaD2oVIpJlDuJBqnQ4sxc/wVnBieKW9wg+Rsn247hmwO
+uYGk/wI/oUUejVQYavaYu165Zro/7B0LSkDQEahONyW2ejyap+N5QAUcT3dI06o5
+HxaX/7UgElHGcktSwPkFzH22lJ+LqLhIa/d3n2Kt/Q==
+=b5Et
+-----END PGP SIGNATURE-----
